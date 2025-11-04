@@ -4,7 +4,7 @@
 source /opt/anaconda3/etc/profile.d/conda.sh
 
 # 激活 Conda 环境
-conda activate py310-venv_20251101_143154-BettaFish
+conda activate py311-venv_20251101_143154-BettaFish
 
 # 安装 requirements.txt 中的依赖
 pip install -r Python-Requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple 

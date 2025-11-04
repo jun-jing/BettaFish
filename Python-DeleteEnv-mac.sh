@@ -4,7 +4,7 @@
 source /opt/anaconda3/etc/profile.d/conda.sh
 
 # 删除指定的 Conda 环境
-conda env remove --name py310-venv_20251101_143154-BettaFish
+conda env remove --name py311-venv_20251101_143154-BettaFish
 
 # 确认环境已被成功删除
 conda env list

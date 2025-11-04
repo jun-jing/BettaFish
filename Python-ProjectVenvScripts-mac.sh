@@ -4,7 +4,7 @@
 source /opt/anaconda3/etc/profile.d/conda.sh
 
 # 激活 Conda 环境
-conda activate py310-venv_20251101_143154-BettaFish
+conda activate py311-venv_20251101_143154-BettaFish
 
 # 运行 Python 脚本
 python App.py

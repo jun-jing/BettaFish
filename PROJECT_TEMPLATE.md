@@ -57,7 +57,7 @@ Python-DeleteEnv.bat          # 重置环境（谨慎使用）
 ## 🏗️ 环境命名规范
 
 **格式**: `py310-venv_项目时间戳`
-**示例**: `py310-venv_20251101_143154-BettaFish`
+**示例**: `py311-venv_20251101_143154-BettaFish`
 
 - `py310`: Python版本标识
 - `venv`: 虚拟环境标识  
@@ -87,7 +87,7 @@ pip install -r Python-Requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simp
 ```batch
 @echo off
 REM 创建Conda虚拟环境
-call conda create -n py310-venv_YYYYMMDD_HHMMSS python=3.10
+call conda create -n py310-venv_YYYYMMDD_HHMMSS python=3.11
 call conda list
 PAUSE
 ```
