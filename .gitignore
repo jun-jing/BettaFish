@@ -299,7 +299,7 @@ docs/.vitepress/cache
 # ==== 日志和临时文件 ====
 # 日志文件
 # *.log
-# logs/
+logs/
 # */logs/
 
 # 临时文件
@@ -320,6 +320,8 @@ secrets.json
 *.key
 *.pem
 *.crt
+config.py
+MindSpider/config.py
 
 # API 密钥
 api_keys.txt
@@ -362,3 +364,7 @@ test_results/
 
 # Ai操作指引文件
 OperationGuidance/
+
+insight_engine_streamlit_reports/
+media_engine_streamlit_reports/
+query_engine_streamlit_reports/
